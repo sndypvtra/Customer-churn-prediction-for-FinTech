@@ -1,0 +1,16 @@
+# Data Explanation
+Data yang digunakan adalah data di salah satu fintech dimana data tersebut sudah tidak lagi memuat data yang confdential, dalam artian data-data yang sifatnya privacy sudah di buang seperti nama, alamat dll yang bersifat privacy dan data ini merupakan data yang telah dimodifikasi sedemikian rupa karna beberapa faktor, namun data ini sangat identik dengan data dilapangan.
+
+
+user		        = user disini adalah user id atau sama seperti nik jika di ktp, dimana data id ini memuat banyak informasi, data ini adalah komponen utama jika kita ingin tahu ({nama, alamat, email, ip address dll,.})
+first open 		= kapan pertama kali user membuka aplikasinya setelah di download
+dayofweek 		= adalah indeks hari [0 - 6] = [minggu - sabtu]
+hour 			= pada jam berapa pengguna mengaktifkan aplikasi pertama kali
+age 			= usia pengguna aplikasi
+screen list		= halaman apa saja yang sudah di buka oleh pengguna
+num screens          	= banyaknya halaman yang sudah dibuka oleh pengguna (ada beberapa numscreen yang tidak sesuai dengan screen list)
+minigame             	= fitur game disini artinya pengguna menggunakan game atau tidak [0 - 1] = [Tidak - Ya]
+used premium feature 	= apakah user menggunakan fiture premium berbayar atau tidak selama trial aplikasi di 24jam [0 - 1] = [Tidak - Ya]
+enrolled             	= adalah keputusan pengguna untuk berlangganan atau tidak [0 - 1] = [Tidak - Ya] kolom ini tidak terbatas pada masa trial selama 24jam
+enrolled date        	= waktu keputusan pengguna berlangganan
+liked                	= apakah user menekan fitur like pada aplikasinya [0 - 1] = [Tidak - Ya]
