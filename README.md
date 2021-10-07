@@ -1,1 +1,1 @@
-# Customer Churn Prediction for FinTech using Logistic Regression
+# Customer Churn Prediction for FinTech using 4 algorithm
